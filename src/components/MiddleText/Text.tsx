@@ -4,8 +4,8 @@ type TextProps = {
 
 export default function Text({ children }: TextProps) {
   return (
-    <h2 className="text-2xl font-semibold text-center text-stone-900 m-4">
+    <div className="text-2xl font-semibold text-center text-stone-900 m-4">
       {children}
-    </h2>
+    </div>
   );
 }
